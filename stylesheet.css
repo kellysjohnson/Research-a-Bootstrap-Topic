@@ -2,6 +2,8 @@ img {
 	height: 500px;
 	width: 500px;
 	margin: 200px;
+	border: 25px;
+	border-color: black;
 }
 
 ul div:hover {
