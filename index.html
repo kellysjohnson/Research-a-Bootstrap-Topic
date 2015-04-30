@@ -25,9 +25,9 @@
       <div class="input-group-btn">
         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Pirates <span class="caret"></span></button>
         <ul class="dropdown-menu" role="menu">
-          <li><a href="#">Jack Sparrow</a></li>
-          <li><a href="#">SpongeBob</a></li>
-          <li><a href="#">A Scary Pirate</a></li>
+          <li><div data-id="sparrow">Jack Sparrow</a></li>
+          <li><div data-id="spongeB">SpongeBob</a></li>
+          <li><div data-id="scaryP">A Scary Pirate</a></li>
           <li class="divider"></li>
           <!-- <li><a href="#">Separated link</a></li> -->
         </ul>
@@ -41,9 +41,9 @@
       <div class="input-group-btn">
         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Ninjas <span class="caret"></span></button>
         <ul class="dropdown-menu dropdown-menu-right" role="menu">
-          <li><a href="#">Raphael</a></li>
-          <li><a href="#">Ninja</a></li>
-          <li><a href="#">Me</a></li>
+          <li><div data-id="rapheal">Raphael</div></li>       <!--Can create this dynamically with Javascript using API resultant array indices -->
+          <li><div data-id="ninjakitty">Ninja Kitty</div></li>
+          <li><div data-id="bellie">Bellie</div></li>
           <li class="divider"></li>
           <!-- <li><a href="#">Separated link</a></li> -->
         </ul>
@@ -52,6 +52,11 @@
   </div><!-- /.col-lg-6 -->
 </div><!-- /.row -->
 </nav>
+
+<div class="container">
+  <div class="col-lg-10 hidden-sm hidden-xs"> </div>
+
+</div>
 
 <!--SCRIPTS -->
     <script src="jquery.min.js"></script>
