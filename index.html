@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Bootstrap Challenge</title>
+	<meta name="description" content="Research project to learn about Bootstrap - Dropdown Menus">
+	<meta name="author" content="Kelly Johnson">
+
+
+		<link href="bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+<nav>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Pirates <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Jack Sparrow</a></li>
+          <li><a href="#">SpongeBob</a></li>
+          <li><a href="#">A Scary Pirate</a></li>
+          <li class="divider"></li>
+          <!-- <li><a href="#">Separated link</a></li> -->
+        </ul>
+      </div><!-- /btn-group -->
+      <input type="text" class="form-control" aria-label="...">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="...">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Ninjas <span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+          <li><a href="#">Raphael</a></li>
+          <li><a href="#">Ninja</a></li>
+          <li><a href="#">Me</a></li>
+          <li class="divider"></li>
+          <!-- <li><a href="#">Separated link</a></li> -->
+        </ul>
+      </div><!-- /btn-group -->
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+</nav>
+
+<!--SCRIPTS -->
+    <script src="jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+<!-- END SCRIPTS -->
+
+</body>
+</html>
