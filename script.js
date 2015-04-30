@@ -27,7 +27,7 @@ var scaryP = {
 	image: "http://www.takeourword.com/images/pirate.gif"
 }
 
-var pirates =[sparrow, spongeB, scaryP]
+var pirates = [sparrow, spongeB, scaryP]
 
 
 var i;
@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 
 		$('.dropdown-menu-left li div').on("click", function(){
-		// console.log("pick me");
+		console.log("pick me, left");
 		$('.col-lg-10').children().remove();
 		
 		var identifier = $(this).data("id");
